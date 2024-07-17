@@ -31,7 +31,7 @@
 
 .title{
   font-size: 2.25rem;
-  font-weight: 900;
+  font-weight: 800;
   font-style: italic;
   color: #E6533C;
 }
@@ -46,11 +46,11 @@
 
 #home{
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
   background-color: #E6533C;
   color: #FFFFFF;
   border-radius:46px ;
-  padding:4px;
+  padding:8px 20px;
 }
 
 .color{
@@ -67,3 +67,19 @@
 }
 /* banner related style */
 
+.banner-title{
+  font-size:4.9rem ;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+span{
+  font-family:"miama", sans-serif
+  font-size: 4.9rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.banner-description{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
