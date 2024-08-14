@@ -14,6 +14,9 @@
   color: #FFFFFF;
  }
 /* shared style */
+header{
+  width: 100%;
+}
 
 .display-flex{
       display: flex;
@@ -90,7 +93,7 @@
   color: #FFFFFF;
   margin-bottom: 28px;
 }
-span{
+#shape{
   font-family:"miama", sans-serif;
   font-size: 4.9rem;
   font-weight: 400;
@@ -105,6 +108,55 @@ span{
   margin-bottom: 28px;
   
 
+}
+.circle{
+  
+  border-radius: 100px;
+  background-color: #E6533C;
+}
+ .wk{ 
+  position: relative; 
+   right: 50px ;
+  bottom: 430px;
+    
+
+} 
+.video{
+  width: 170px;
+  height: 96px;
+  background-color: rgba(48, 48, 48, 0.54);
+  border: none;
+  border-radius: 12px;
+  text-align: left;
+  /* position: absolute; */
+ 
+}
+.video-con{
+  position: relative;
+  left: 0px;
+  bottom: 170px;
+} 
+ .btn{
+  justify-content: space-between;
+ }
+#vt{
+  font-size:1rem ;
+  font-weight: 400;
+  color: rgba(239, 237, 232, 0.65);
+}
+#out{
+  font-size: 2.5rem;
+  font-weight: 900px;
+  color: #FFFFFF;
+}
+   
+
+
+#v-tutorial{
+  width: 68px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #FFFFFF;
 }
 .button-primary{
   border-radius: 42px;
@@ -126,7 +178,7 @@ span{
 
 }
 .banner{
-  max-width: 520px;
+  width: 520px;
   max-height: 439px;
   margin: 37px 87px 77px 190px;
   
@@ -139,6 +191,8 @@ span{
    margin-left: 87px;  
   margin-right: 130px;
   margin-bottom: 0;
+
+  position:relative;
 
 }
 
