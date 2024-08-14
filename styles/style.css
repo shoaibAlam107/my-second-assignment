@@ -94,9 +94,11 @@ header{
   margin-bottom: 28px;
 }
 #shape{
-  font-family:"miama", sans-serif;
-  font-size: 4.9rem;
+  
+  font-family: 'Miama';
+  font-style: italic;
   font-weight: 400;
+  src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
   color: #FFFFFF;
 }
 .banner-description{
@@ -109,10 +111,18 @@ header{
   
 
 }
-.circle{
+
+.fa-circle{
+  width: 40px;
+  height: 40px;
+  border: none;
   
-  border-radius: 100px;
-  background-color: #E6533C;
+   border-radius: 100px;
+  background-color: #E6533C; */
+}
+.round{
+  justify-content: space-between;
+  padding: auto;
 }
  .wk{ 
   position: relative; 
