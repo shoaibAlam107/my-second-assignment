@@ -416,3 +416,107 @@ color:rgba(255, 255, 255, 0.50);
 #Calculate{
   margin-top: 34px;
 }
+/* Meet Our Team */
+
+.meet-our-team{
+  max-width: 1060px;
+  max-height: 782px;
+  margin: 88px 190px;
+}
+.team{
+  max-width: 671px;
+  max-height: 119px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 194px;
+
+}
+.team-heading{
+  font-weight: 900px;
+  font-size:3rem ;
+  margin-bottom: 0;
+
+}
+.team-description{
+  max-width: 671px;
+  max-height: 48px;
+  font-weight: 400px;
+  font-size: 0.9rem;
+  color:rgba(255, 255, 255, 0.50);
+  margin-top: 0;
+
+}
+
+.image-styles{
+  max-width: 1060px;
+  max-height: 604px;
+ 
+  display:grid;
+  grid-template-columns: repeat(3 ,1fr);
+  grid-template-rows: repeat(2 ,1fr);
+   gap: 20px; */
+  padding-right: 0;
+  background-color: rgba(255, 255, 255, 0.10);
+  /* margin: 20px 0; */ 
+   border: 20px solid rgba(255, 255, 255, 0.10); 
+  border-radius: 18px;
+   
+ 
+}
+.trainer-pic{
+ max-width: 295px;
+ max-height: 270px; 
+ object-fit: cover;
+ border-radius: 18px;
+}
+  
+
+.Tri{
+  font-size:0.9rem;
+  font-weight:400px ;
+  color: rgba(255, 255, 255, 0.50);
+ 
+  
+}
+
+.meet{
+
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+
+}
+.text{
+  position: absolute;
+  left: 30px;
+  bottom: 19px;
+
+}
+/* .trainer-pic .meet{
+  
+  width: 100%;
+} */
+#im-5{
+  width:100%;
+  height: auto;
+ 
+}
+ #im-3{
+  width:295px;
+  height:270px;
+
+} 
+.im-4{
+  width: 326.26px;
+  height: 100%;
+  
+}
+#im-2{
+  width: 100%;
+}
+#im-6{
+  width: 100%;
+  height: 100%;
+}
