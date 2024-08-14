@@ -454,8 +454,8 @@ color:rgba(255, 255, 255, 0.50);
  
   display:grid;
   grid-template-columns: repeat(3 ,1fr);
-  grid-template-rows: repeat(2 ,1fr);
-   gap: 20px; */
+  /* grid-template-rows: repeat(2 ,1fr); */
+  gap: 20px;
   padding-right: 0;
   background-color: rgba(255, 255, 255, 0.10);
   /* margin: 20px 0; */ 
@@ -505,12 +505,12 @@ color:rgba(255, 255, 255, 0.50);
 }
  #im-3{
   width:295px;
-  height:270px;
+  height:260px;
 
 } 
 .im-4{
-  width: 326.26px;
-  height: 100%;
+  width: 100%;
+  height: 100%; 
   
 }
 #im-2{
@@ -519,4 +519,61 @@ color:rgba(255, 255, 255, 0.50);
 #im-6{
   width: 100%;
   height: 100%;
+}
+
+/* footer */
+
+.footer{
+  max-width: 1440px;
+  max-height: auto;
+  background-color:  rgba(255, 255, 255, 0.10);
+  
+  
+  /* justify-content: center; */
+  /* align-items: center; */
+ 
+}
+
+.footer-container{
+  max-width: 1059px;
+  max-height:249px ;
+  margin: 86px 190px 79px;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+
+
+}
+.about-fitness{
+  max-width: 443px;
+  max-height: 176px;
+  display: block;
+  margin-top: 10px ;
+  margin-bottom: 173px;
+}
+.f-description{
+max-width: 671px;
+max-height: 48px;
+font-weight: 400px;
+font-size: 0.9rem;
+color:rgba(255, 255, 255, 0.50);
+
+}
+.f-title{
+font-size: 4rem;
+font-weight: 800;
+font-style: italic;
+color: #E6533C;
+margin:0;
+
+}
+.rights{
+  
+  font-size:0.9rem;
+  font-weight:400px ;
+  color: rgba(255, 255, 255, 0.50);
+   text-align: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: 565px 35 px;
+  
 }
