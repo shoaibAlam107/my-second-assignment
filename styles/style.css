@@ -224,7 +224,7 @@ header{
 
 /* main related style */
 main{
-  display:none
+  /* display:none */
 
 }
 .habit-sec{
@@ -620,7 +620,7 @@ color:rgba(255, 255, 255, 0.50);
  
 }
 footer{
-  display: none;
+  /* display: none; */
 }
 
 .footer-container{
