@@ -16,6 +16,8 @@
 /* shared style */
 header{
   width: 100%;
+  height: auto;
+  
 }
 
 .display-flex{
@@ -31,6 +33,9 @@ header{
 
 /* nave bar related */
 
+.menu{
+  display: none;
+}
 .nav-bar {
   justify-content: space-between;
   align-items: center;
@@ -121,6 +126,7 @@ header{
   background-color: #E6533C; */
 }
 .round{
+  display:flex;
   justify-content: space-between;
   padding: auto;
 }
@@ -142,11 +148,13 @@ header{
  
 }
 .video-con{
+  display: flex;
   position: relative;
   left: 0px;
   bottom: 170px;
 } 
  .btn{
+  display: flex;
   justify-content: space-between;
  }
 #vt{
@@ -207,13 +215,8 @@ header{
 }
 
 /* main related style */
-main{
-  
-
-  /* margin-right: 190px; */
-  /* margin-left: 190px; */
-}
 .habit-sec{
+  
   max-width: 1440px;
   max-height: 451px;
   align-items: center;
@@ -474,7 +477,14 @@ color:rgba(255, 255, 255, 0.50);
   color: rgba(255, 255, 255, 0.50);
 
 }
+#box-4{
+  display:flex;
+  justify-content: space-between;
+}
+
 #box-5{
+  display:flex;
+  justify-content: space-between;
   grid-column: span 2;
 }
 #Calculate{
@@ -587,7 +597,7 @@ color:rgba(255, 255, 255, 0.50);
 
 /* footer */
 
-.footer{
+.footer-section{
   max-width: 1440px;
   max-height: auto;
   background-color:  rgba(255, 255, 255, 0.10);
@@ -601,6 +611,8 @@ color:rgba(255, 255, 255, 0.50);
 .footer-container{
   max-width: 1059px;
   max-height:249px ;
+  display: flex;
+
   margin: 86px 190px 79px;
   justify-content: space-around;
   border-bottom: 1px solid rgba(255, 255, 255, 0.10);
@@ -635,9 +647,14 @@ margin:0;
   font-size:0.9rem;
   font-weight:400px ;
   color: rgba(255, 255, 255, 0.50);
-   text-align: center; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  margin: 565px 35 px;
+  text-align: center; 
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 56px;
+  margin-bottom: 30PX;
   
 }
+
+
+/* Responsive media Query for small device */
+
