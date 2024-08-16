@@ -16,7 +16,7 @@
 /* shared style */
 header{
   width: 100%;
- 
+ /* display: none; */
   
 }
 
@@ -224,7 +224,7 @@ header{
 
 /* main related style */
 main{
-  /* display:none */
+ /* display:none  */
 
 }
 .habit-sec{
@@ -657,6 +657,8 @@ color: #E6533C;
 margin:0;
 
 }
+
+
 .rights{
   
   font-size:0.9rem;
@@ -706,7 +708,7 @@ margin:0;
   position: relative;
   left: 80px;
   bottom: 251px;
-}
+ }
 
 
 
@@ -720,15 +722,15 @@ margin:0;
   bottom: 455px;
 
 
-}
-#v2{
+ }
+ #v2{
   width: 160px;
-}
-#vt{
+ }
+ #vt{
   text-wrap: nowrap;
   font-size: 0.8rem;
   width: 100px;
-}
+ }
 
     
 
@@ -796,4 +798,85 @@ margin:0;
   .Club{
     display: none;
   }
+
+  /* footer section */
+
+  .footer-section{
+    margin-left: auto;
+  }
+
+  .footer-container{
+    max-width: 100%;
+    max-height:986px ;
+    flex-direction: column;
+   
+    margin-left: 20px;
+    border: none;
+
+    margin-bottom: 10px;
+  
+    /* margin: 86px 190px 79px;
+    justify-content: space-around;
+     */
+  
+  
+  }
+  .get{
+    width: 100%;
+    margin-bottom: 5px;
+
+
+  }
+  .Tri{
+    font-size: 1.3rem;
+  }
+  .st{
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+  .about-fitness{
+    max-width: 500px;
+    max-height: 200px;
+    display: block;
+    margin-top: 10px ;
+    margin-bottom: 20px; 
+  }
+  .f-description{
+  width: 300px;
+  height: 96px;
+  
+  
+  }
+  .f-title{
+  font-size: 4rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #E6533C;
+  margin:0;
+  
+  }
+  .rights{
+    /* position: absolute; */
+    width: 318px;
+    height: 24px;
+    text-align: left; 
+    align-items: center; 
+    justify-content: center; 
+    /* margin-bottom:50px;  */
+    margin:41px 0px 50px 20px; 
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* margin-left: auto;  */
+
+    
+    
+    
+  }
+
+
+
+
 }
+
+
